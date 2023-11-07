@@ -1,16 +1,5 @@
-import os
-try: from flask import Flask, jsonify, request
-except:
-    print("Instalando Flask con pip install flask...")
-    print("Al terminar, intenta volver a abrir la aplicacion")
-    os.system("pip install flask")
-    exit(0)
-try: from flask_cors import CORS
-except:
-    print("Instalando flask_cors con pip install flask_cors...")
-    print("Al terminar, intenta volver a abrir la aplicacion")
-    os.system("pip install flask_cors")
-    exit(0)
+from flask import Flask, jsonify, request
+from flask_cors import CORS
 
 import db_to_json
 
