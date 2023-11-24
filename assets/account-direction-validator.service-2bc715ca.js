@@ -1,0 +1,1 @@
+const n={no_address:"No has ingresado una direccion",no_department:"No has elegido un departamento",no_province:"No has elegido una provincia",no_district:"No has elegido un distrito"};function t(e,r,o,i){return e?r?o?i?!1:n.no_district:n.no_province:n.no_department:n.no_address}export{t as v};
